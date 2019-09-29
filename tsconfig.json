@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "esnext", "dom"],
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "ES5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "compileOnSave": true,
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules", "./**/node_modules", "tests"]
+}

@@ -1,0 +1,3 @@
+exports.data = {
+  s: "s"
+};
